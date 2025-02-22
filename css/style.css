@@ -712,7 +712,7 @@ box-shadow: 7px 5px 29px -8px rgba(0,0,0,0.81);
 .contact .main_form .send {
      font-size: 16px;
      transition: ease-in all 0.5s;
-     background-color: #F3245E;
+     background-color: #185748;
      color: #fff;
      padding: 12px 70px;
      margin: 0 auto;
@@ -720,7 +720,7 @@ box-shadow: 7px 5px 29px -8px rgba(0,0,0,0.81);
 }
 
 .contact .main_form .send:hover {
-     background-color: #7f0b2c;
+     background-color: #185748;
      transition: ease-in all 0.5s;
      color: #fff;
 }
