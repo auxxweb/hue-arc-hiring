@@ -337,7 +337,7 @@
                // Perform the AJAX request
                $.ajax({
                 url: 'https://script.google.com/macros/s/AKfycbxkCT6cnJQrA37uFylMrcGEGlvuX-07EHMQPF0YY6UAknmlZtnYr1d3XBuDRSLVM6Dddw/exec',
-                data: $('#client').serialize() ,
+                data: $('#client').serialize() + '&CV/Resume=' +`${encodeURIComponent(image)}`,
                   method: 'post',
                   success: function (response) {
                      $('#client')[0].reset(); // Reset form fields
